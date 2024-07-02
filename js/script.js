@@ -22,4 +22,6 @@ frm.addEventListener("submit", (e) =>{
         localStorage.setItem("jogoPalavra", palavra);
         localStorage.setItem("jogoDica", dica);
     }
-})
+  
+    frm.reset();
+});
